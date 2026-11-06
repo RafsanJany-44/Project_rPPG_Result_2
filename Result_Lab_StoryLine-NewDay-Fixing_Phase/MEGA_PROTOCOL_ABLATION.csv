@@ -1,0 +1,4 @@
+model,checkpoint,prism,toolbox
+three_branch_mi_adaptive_branch_weight,best_hr_model.pt,0.6071336376405025,0.3812358543821516
+three_branch_mi_adaptive_branch_weight,best_loss_model.pt,0.6443631425627295,0.3962880706926882
+three_branch_mi_adaptive_branch_weight,last_model.pt,0.6937649019240943,0.3754179530596488

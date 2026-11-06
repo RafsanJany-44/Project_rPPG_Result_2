@@ -1,0 +1,56 @@
+[2026-11-06 14:07:18] ==========================================================================
+[2026-11-06 14:07:18] MEGA RUN start | device=cuda | models=1 | protocols=['old', 'prism', 'toolbox'] | epochs<= 300 | root=/media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase
+[2026-11-06 14:07:18] models: ['three_branch_mi_adaptive_branch_weight']
+[2026-11-06 14:07:18] ==========================================================================
+[2026-11-06 14:07:18] --------------------------------------------------------------------------
+[2026-11-06 14:07:18] [1/1] MODEL: three_branch_mi_adaptive_branch_weight
+[2026-11-06 14:07:19]   built 'three_branch_mi_adaptive_branch_weight': params=170136, reach=96 samples (3.20s @30fps)
+[2026-11-06 14:14:20]     epoch   1 | train_loss=0.7213 val_loss=0.5450 val_hr_mae=2.803 lr=3.0e-04
+[2026-11-06 15:16:28]     epoch  10 | train_loss=0.3796 val_loss=0.5480 val_hr_mae=2.882 lr=3.0e-04
+[2026-11-06 16:25:31]     epoch  20 | train_loss=0.4439 val_loss=0.6183 val_hr_mae=2.739 lr=3.0e-04
+[2026-11-06 17:34:28]     epoch  30 | train_loss=0.4994 val_loss=0.6972 val_hr_mae=2.676 lr=3.0e-04
+[2026-11-06 18:43:24]     epoch  40 | train_loss=0.4688 val_loss=0.6741 val_hr_mae=2.629 lr=3.0e-04
+[2026-11-06 19:52:23]     epoch  50 | train_loss=0.4488 val_loss=0.6886 val_hr_mae=2.852 lr=3.0e-04
+[2026-11-06 21:01:15]     epoch  60 | train_loss=0.4356 val_loss=0.6879 val_hr_mae=2.585 lr=3.0e-04
+[2026-11-06 22:09:54]     epoch  70 | train_loss=0.4209 val_loss=0.6935 val_hr_mae=2.965 lr=1.5e-04
+[2026-11-06 23:18:33]     epoch  80 | train_loss=0.4123 val_loss=0.6915 val_hr_mae=3.276 lr=3.7e-05
+[2026-11-07 00:27:31]     epoch  90 | train_loss=0.4103 val_loss=0.6870 val_hr_mae=2.889 lr=1.0e-05
+[2026-11-07 00:27:31]     early stop at epoch 90 (no val-HR improvement for 30, after warmup 50)
+[2026-11-07 00:27:31]   trained 'three_branch_mi_adaptive_branch_weight': epochs_run=90 best_val_loss=0.5387 best_val_hr_mae=2.495
+[2026-11-07 00:27:31]   evaluating checkpoint 'best_hr_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/best_hr_model
+[2026-11-07 00:27:31]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'old' ...
+[2026-11-07 00:29:30]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/best_hr_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-07 00:29:30]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'prism' ...
+[2026-11-07 00:29:50]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'toolbox' ...
+[2026-11-07 00:30:02]   evaluating checkpoint 'last_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/last_model
+[2026-11-07 00:30:02]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'old' ...
+[2026-11-07 00:31:57]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/last_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-07 00:31:57]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'prism' ...
+[2026-11-07 00:32:17]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'toolbox' ...
+[2026-11-07 00:32:29]   evaluating checkpoint 'best_loss_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/best_loss_model
+[2026-11-07 00:32:29]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'old' ...
+[2026-11-07 00:34:25]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/three_branch_mi_adaptive_branch_weight/best_loss_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-07 00:34:25]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'prism' ...
+[2026-11-07 00:34:45]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight' under 'toolbox' ...
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_hr_model.pt | old]: val_model_mae=nan
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_hr_model.pt | prism]: val_model_mae=0.607
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_hr_model.pt | toolbox]: val_model_mae=0.381
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [last_model.pt | old]: val_model_mae=nan
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [last_model.pt | prism]: val_model_mae=0.694
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [last_model.pt | toolbox]: val_model_mae=0.375
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_loss_model.pt | old]: val_model_mae=nan
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_loss_model.pt | prism]: val_model_mae=0.644
+[2026-11-07 00:34:57]   DONE 'three_branch_mi_adaptive_branch_weight' [best_loss_model.pt | toolbox]: val_model_mae=0.396
+[2026-11-07 00:34:57] 
+PROTOCOL ABLATION (val model MAE, model x protocol):
+[2026-11-07 00:34:57] 
+protocol                                                   prism  toolbox
+model                                  checkpoint                        
+three_branch_mi_adaptive_branch_weight best_hr_model.pt    0.607    0.381
+                                       best_loss_model.pt  0.644    0.396
+                                       last_model.pt       0.694    0.375
+[2026-11-07 00:34:57] ==========================================================================
+[2026-11-07 00:34:57] MEGA RUN complete. Summary -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/MEGA_SUMMARY.csv
+[2026-11-07 00:34:57] Ablation table   -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_Lab_StoryLine-NewDay-Fixing_Phase/MEGA_PROTOCOL_ABLATION.csv
+[2026-11-07 00:34:57] ==========================================================================
+[2026-11-07 00:34:57] Generating dashboard...
