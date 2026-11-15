@@ -1,0 +1,13 @@
+model,checkpoint,prism,toolbox
+MiUNet,best_hr_model.pt,0.6292414518287253,0.38124477132223294
+MiUNet,best_loss_model.pt,0.8237658420516512,0.4244781752882497
+MiUNet,last_model.pt,0.6273527905448946,0.3783527074734542
+branch1_6wa_projector,best_hr_model.pt,0.8525791939172747,0.961416202345851
+branch1_6wa_projector,best_loss_model.pt,1.1898343928056927,0.8261892219156504
+branch1_6wa_projector,last_model.pt,0.8496215178432994,0.8319714998761767
+branch2_tcn_rf31_h8,best_hr_model.pt,0.7363157708781556,0.49379360866285016
+branch2_tcn_rf31_h8,best_loss_model.pt,0.8340356303548873,0.5776492892780556
+branch2_tcn_rf31_h8,last_model.pt,0.8027736472962935,0.5053514409510901
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_hr_model.pt,0.7076729347039966,0.40206563378376525
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,0.6333714830740477,0.41944389357566775
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,0.7495946225085129,0.347178504267164

@@ -1,0 +1,218 @@
+[2026-11-14 07:24:55] ==========================================================================
+[2026-11-14 07:24:55] MEGA RUN start | device=cuda | models=4 | protocols=['old', 'prism', 'toolbox'] | epochs<= 300 | root=/media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258
+[2026-11-14 07:24:55] models: ['three_branch_mi_adaptive_branch_weight_b1_6wa', 'branch1_6wa_projector', 'branch2_tcn_rf31_h8', 'MiUNet']
+[2026-11-14 07:24:55] ==========================================================================
+[2026-11-14 07:24:55] --------------------------------------------------------------------------
+[2026-11-14 07:24:55] [1/4] MODEL: three_branch_mi_adaptive_branch_weight_b1_6wa
+[2026-11-14 07:24:55]   built 'three_branch_mi_adaptive_branch_weight_b1_6wa': params=170140, reach=96 samples (3.20s @30fps)
+[2026-11-14 07:29:38]     epoch   1 | train_loss=0.7085 val_loss=0.7029 val_hr_mae=3.703 lr=3.0e-04
+[2026-11-14 08:12:49]     epoch  10 | train_loss=0.3794 val_loss=0.4643 val_hr_mae=2.836 lr=3.0e-04
+[2026-11-14 08:59:56]     epoch  20 | train_loss=0.4432 val_loss=0.5398 val_hr_mae=2.602 lr=3.0e-04
+[2026-11-14 09:46:46]     epoch  30 | train_loss=0.5114 val_loss=0.6295 val_hr_mae=2.833 lr=3.0e-04
+[2026-11-14 10:33:51]     epoch  40 | train_loss=0.4950 val_loss=0.6178 val_hr_mae=2.688 lr=3.0e-04
+[2026-11-14 11:20:57]     epoch  50 | train_loss=0.4787 val_loss=0.6188 val_hr_mae=2.605 lr=3.0e-04
+[2026-11-14 12:08:02]     epoch  60 | train_loss=0.4661 val_loss=0.6195 val_hr_mae=2.525 lr=3.0e-04
+[2026-11-14 12:54:56]     epoch  70 | train_loss=0.4542 val_loss=0.6162 val_hr_mae=2.567 lr=7.5e-05
+[2026-11-14 13:41:49]     epoch  80 | train_loss=0.4486 val_loss=0.6182 val_hr_mae=2.593 lr=7.5e-05
+[2026-11-14 14:28:43]     epoch  90 | train_loss=0.4454 val_loss=0.6159 val_hr_mae=2.448 lr=3.7e-05
+[2026-11-14 15:15:39]     epoch 100 | train_loss=0.4447 val_loss=0.6170 val_hr_mae=2.437 lr=1.9e-05
+[2026-11-14 16:02:38]     epoch 110 | train_loss=0.4438 val_loss=0.6184 val_hr_mae=2.430 lr=1.0e-05
+[2026-11-14 16:44:47]     early stop at epoch 119 (no val-HR improvement for 30, after warmup 50)
+[2026-11-14 16:44:47]   trained 'three_branch_mi_adaptive_branch_weight_b1_6wa': epochs_run=119 best_val_loss=0.4624 best_val_hr_mae=2.401
+[2026-11-14 16:44:47]   evaluating checkpoint 'best_hr_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/best_hr_model
+[2026-11-14 16:44:47]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'old' ...
+[2026-11-14 16:46:44]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/best_hr_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 16:46:44]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'prism' ...
+[2026-11-14 16:47:04]   [best_hr_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'toolbox' ...
+[2026-11-14 16:47:15]   evaluating checkpoint 'last_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/last_model
+[2026-11-14 16:47:15]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'old' ...
+[2026-11-14 16:49:11]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/last_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 16:49:11]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'prism' ...
+[2026-11-14 16:49:31]   [last_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'toolbox' ...
+[2026-11-14 16:49:42]   evaluating checkpoint 'best_loss_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/best_loss_model
+[2026-11-14 16:49:42]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'old' ...
+[2026-11-14 16:51:38]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/three_branch_mi_adaptive_branch_weight_b1_6wa/best_loss_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 16:51:38]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'prism' ...
+[2026-11-14 16:51:59]   [best_loss_model.pt] evaluating 'three_branch_mi_adaptive_branch_weight_b1_6wa' under 'toolbox' ...
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_hr_model.pt | old]: val_model_mae=nan
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_hr_model.pt | prism]: val_model_mae=0.708
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_hr_model.pt | toolbox]: val_model_mae=0.402
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [last_model.pt | old]: val_model_mae=nan
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [last_model.pt | prism]: val_model_mae=0.750
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [last_model.pt | toolbox]: val_model_mae=0.347
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_loss_model.pt | old]: val_model_mae=nan
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_loss_model.pt | prism]: val_model_mae=0.633
+[2026-11-14 16:52:09]   DONE 'three_branch_mi_adaptive_branch_weight_b1_6wa' [best_loss_model.pt | toolbox]: val_model_mae=0.419
+[2026-11-14 16:52:09] 
+PROTOCOL ABLATION (val model MAE, model x protocol):
+[2026-11-14 16:52:09] 
+protocol                                                          prism  toolbox
+model                                         checkpoint                        
+three_branch_mi_adaptive_branch_weight_b1_6wa best_hr_model.pt    0.708    0.402
+                                              best_loss_model.pt  0.633    0.419
+                                              last_model.pt       0.750    0.347
+[2026-11-14 16:52:09] --------------------------------------------------------------------------
+[2026-11-14 16:52:09] [2/4] MODEL: branch1_6wa_projector
+[2026-11-14 16:52:09]   built 'branch1_6wa_projector': params=7, reach=-1 samples (-0.03s @30fps)
+[2026-11-14 16:53:49]     epoch   1 | train_loss=0.7120 val_loss=0.7063 val_hr_mae=3.777 lr=3.0e-04
+[2026-11-14 17:08:48]     epoch  10 | train_loss=0.6746 val_loss=0.6821 val_hr_mae=3.565 lr=3.0e-04
+[2026-11-14 17:25:20]     epoch  20 | train_loss=0.7760 val_loss=0.7774 val_hr_mae=3.519 lr=3.0e-04
+[2026-11-14 17:41:57]     epoch  30 | train_loss=0.8771 val_loss=0.8722 val_hr_mae=3.418 lr=3.0e-04
+[2026-11-14 17:58:40]     epoch  40 | train_loss=0.8772 val_loss=0.8718 val_hr_mae=3.441 lr=3.0e-04
+[2026-11-14 18:15:14]     epoch  50 | train_loss=0.8775 val_loss=0.8727 val_hr_mae=3.468 lr=3.0e-04
+[2026-11-14 18:31:51]     epoch  60 | train_loss=0.8772 val_loss=0.8720 val_hr_mae=3.441 lr=3.0e-04
+[2026-11-14 18:48:25]     epoch  70 | train_loss=0.8776 val_loss=0.8722 val_hr_mae=3.418 lr=7.5e-05
+[2026-11-14 19:05:07]     epoch  80 | train_loss=0.8762 val_loss=0.8721 val_hr_mae=3.417 lr=3.7e-05
+[2026-11-14 19:21:43]     epoch  90 | train_loss=0.8761 val_loss=0.8722 val_hr_mae=3.418 lr=1.9e-05
+[2026-11-14 19:38:20]     epoch 100 | train_loss=0.8767 val_loss=0.8723 val_hr_mae=3.418 lr=1.0e-05
+[2026-11-14 19:44:56]     early stop at epoch 104 (no val-HR improvement for 30, after warmup 50)
+[2026-11-14 19:44:56]   trained 'branch1_6wa_projector': epochs_run=104 best_val_loss=0.6820 best_val_hr_mae=3.416
+[2026-11-14 19:44:56]   evaluating checkpoint 'best_hr_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/best_hr_model
+[2026-11-14 19:44:56]   [best_hr_model.pt] evaluating 'branch1_6wa_projector' under 'old' ...
+[2026-11-14 19:46:15]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/best_hr_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 19:46:15]   [best_hr_model.pt] evaluating 'branch1_6wa_projector' under 'prism' ...
+[2026-11-14 19:46:31]   [best_hr_model.pt] evaluating 'branch1_6wa_projector' under 'toolbox' ...
+[2026-11-14 19:46:39]   evaluating checkpoint 'last_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/last_model
+[2026-11-14 19:46:39]   [last_model.pt] evaluating 'branch1_6wa_projector' under 'old' ...
+[2026-11-14 19:47:58]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/last_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 19:47:58]   [last_model.pt] evaluating 'branch1_6wa_projector' under 'prism' ...
+[2026-11-14 19:48:15]   [last_model.pt] evaluating 'branch1_6wa_projector' under 'toolbox' ...
+[2026-11-14 19:48:24]   evaluating checkpoint 'best_loss_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/best_loss_model
+[2026-11-14 19:48:24]   [best_loss_model.pt] evaluating 'branch1_6wa_projector' under 'old' ...
+[2026-11-14 19:49:42]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch1_6wa_projector/best_loss_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 19:49:42]   [best_loss_model.pt] evaluating 'branch1_6wa_projector' under 'prism' ...
+[2026-11-14 19:49:59]   [best_loss_model.pt] evaluating 'branch1_6wa_projector' under 'toolbox' ...
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_hr_model.pt | old]: val_model_mae=nan
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_hr_model.pt | prism]: val_model_mae=0.853
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_hr_model.pt | toolbox]: val_model_mae=0.961
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [last_model.pt | old]: val_model_mae=nan
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [last_model.pt | prism]: val_model_mae=0.850
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [last_model.pt | toolbox]: val_model_mae=0.832
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_loss_model.pt | old]: val_model_mae=nan
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_loss_model.pt | prism]: val_model_mae=1.190
+[2026-11-14 19:50:07]   DONE 'branch1_6wa_projector' [best_loss_model.pt | toolbox]: val_model_mae=0.826
+[2026-11-14 19:50:07] 
+PROTOCOL ABLATION (val model MAE, model x protocol):
+[2026-11-14 19:50:07] 
+protocol                                                          prism  toolbox
+model                                         checkpoint                        
+branch1_6wa_projector                         best_hr_model.pt    0.853    0.961
+                                              best_loss_model.pt  1.190    0.826
+                                              last_model.pt       0.850    0.832
+three_branch_mi_adaptive_branch_weight_b1_6wa best_hr_model.pt    0.708    0.402
+                                              best_loss_model.pt  0.633    0.419
+                                              last_model.pt       0.750    0.347
+[2026-11-14 19:50:07] --------------------------------------------------------------------------
+[2026-11-14 19:50:07] [3/4] MODEL: branch2_tcn_rf31_h8
+[2026-11-14 19:50:07]   built 'branch2_tcn_rf31_h8': params=1169, reach=29 samples (0.97s @30fps)
+[2026-11-14 19:51:49]     epoch   1 | train_loss=0.6818 val_loss=0.6649 val_hr_mae=3.194 lr=3.0e-04
+[2026-11-14 20:07:00]     epoch  10 | train_loss=0.5356 val_loss=0.5757 val_hr_mae=2.564 lr=3.0e-04
+[2026-11-14 20:23:53]     epoch  20 | train_loss=0.6265 val_loss=0.6615 val_hr_mae=2.674 lr=3.0e-04
+[2026-11-14 20:40:46]     epoch  30 | train_loss=0.7239 val_loss=0.7562 val_hr_mae=2.401 lr=3.0e-04
+[2026-11-14 20:57:38]     epoch  40 | train_loss=0.7210 val_loss=0.7542 val_hr_mae=2.436 lr=3.0e-04
+[2026-11-14 21:14:30]     epoch  50 | train_loss=0.7229 val_loss=0.7550 val_hr_mae=2.457 lr=3.0e-04
+[2026-11-14 21:31:21]     epoch  60 | train_loss=0.7146 val_loss=0.7480 val_hr_mae=2.524 lr=1.5e-04
+[2026-11-14 21:48:16]     epoch  70 | train_loss=0.7122 val_loss=0.7394 val_hr_mae=2.519 lr=7.5e-05
+[2026-11-14 22:05:14]     epoch  80 | train_loss=0.7098 val_loss=0.7388 val_hr_mae=2.558 lr=1.9e-05
+[2026-11-14 22:20:27]     early stop at epoch 89 (no val-HR improvement for 30, after warmup 50)
+[2026-11-14 22:20:27]   trained 'branch2_tcn_rf31_h8': epochs_run=89 best_val_loss=0.5757 best_val_hr_mae=2.401
+[2026-11-14 22:20:27]   evaluating checkpoint 'best_hr_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/best_hr_model
+[2026-11-14 22:20:27]   [best_hr_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'old' ...
+[2026-11-14 22:21:58]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/best_hr_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 22:21:58]   [best_hr_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'prism' ...
+[2026-11-14 22:22:15]   [best_hr_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'toolbox' ...
+[2026-11-14 22:22:24]   evaluating checkpoint 'last_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/last_model
+[2026-11-14 22:22:24]   [last_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'old' ...
+[2026-11-14 22:23:56]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/last_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 22:23:56]   [last_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'prism' ...
+[2026-11-14 22:24:13]   [last_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'toolbox' ...
+[2026-11-14 22:24:23]   evaluating checkpoint 'best_loss_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/best_loss_model
+[2026-11-14 22:24:23]   [best_loss_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'old' ...
+[2026-11-14 22:25:54]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/branch2_tcn_rf31_h8/best_loss_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-14 22:25:54]   [best_loss_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'prism' ...
+[2026-11-14 22:26:12]   [best_loss_model.pt] evaluating 'branch2_tcn_rf31_h8' under 'toolbox' ...
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_hr_model.pt | old]: val_model_mae=nan
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_hr_model.pt | prism]: val_model_mae=0.736
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_hr_model.pt | toolbox]: val_model_mae=0.494
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [last_model.pt | old]: val_model_mae=nan
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [last_model.pt | prism]: val_model_mae=0.803
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [last_model.pt | toolbox]: val_model_mae=0.505
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_loss_model.pt | old]: val_model_mae=nan
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_loss_model.pt | prism]: val_model_mae=0.834
+[2026-11-14 22:26:21]   DONE 'branch2_tcn_rf31_h8' [best_loss_model.pt | toolbox]: val_model_mae=0.578
+[2026-11-14 22:26:21] 
+PROTOCOL ABLATION (val model MAE, model x protocol):
+[2026-11-14 22:26:21] 
+protocol                                                          prism  toolbox
+model                                         checkpoint                        
+branch1_6wa_projector                         best_hr_model.pt    0.853    0.961
+                                              best_loss_model.pt  1.190    0.826
+                                              last_model.pt       0.850    0.832
+branch2_tcn_rf31_h8                           best_hr_model.pt    0.736    0.494
+                                              best_loss_model.pt  0.834    0.578
+                                              last_model.pt       0.803    0.505
+three_branch_mi_adaptive_branch_weight_b1_6wa best_hr_model.pt    0.708    0.402
+                                              best_loss_model.pt  0.633    0.419
+                                              last_model.pt       0.750    0.347
+[2026-11-14 22:26:21] --------------------------------------------------------------------------
+[2026-11-14 22:26:21] [4/4] MODEL: MiUNet
+[2026-11-14 22:26:21]   built 'MiUNet': params=168401, reach=96 samples (3.20s @30fps)
+[2026-11-14 22:28:03]     epoch   1 | train_loss=0.7263 val_loss=0.5912 val_hr_mae=2.766 lr=3.0e-04
+[2026-11-14 22:43:26]     epoch  10 | train_loss=0.3829 val_loss=0.4714 val_hr_mae=2.753 lr=3.0e-04
+[2026-11-14 23:00:32]     epoch  20 | train_loss=0.4328 val_loss=0.5508 val_hr_mae=2.964 lr=3.0e-04
+[2026-11-14 23:17:33]     epoch  30 | train_loss=0.4877 val_loss=0.6188 val_hr_mae=2.773 lr=3.0e-04
+[2026-11-14 23:34:52]     epoch  40 | train_loss=0.4646 val_loss=0.6155 val_hr_mae=2.383 lr=3.0e-04
+[2026-11-14 23:52:12]     epoch  50 | train_loss=0.4490 val_loss=0.6221 val_hr_mae=2.585 lr=3.0e-04
+[2026-11-15 00:09:20]     epoch  60 | train_loss=0.4350 val_loss=0.6169 val_hr_mae=2.439 lr=3.0e-04
+[2026-11-15 00:26:22]     epoch  70 | train_loss=0.4238 val_loss=0.6150 val_hr_mae=2.387 lr=7.5e-05
+[2026-11-15 00:43:28]     epoch  80 | train_loss=0.4189 val_loss=0.6188 val_hr_mae=2.381 lr=1.9e-05
+[2026-11-15 01:00:23]     epoch  90 | train_loss=0.4168 val_loss=0.6172 val_hr_mae=2.432 lr=1.0e-05
+[2026-11-15 01:17:28]     epoch 100 | train_loss=0.4172 val_loss=0.6172 val_hr_mae=2.389 lr=1.0e-05
+[2026-11-15 01:24:18]     early stop at epoch 104 (no val-HR improvement for 30, after warmup 50)
+[2026-11-15 01:24:18]   trained 'MiUNet': epochs_run=104 best_val_loss=0.4665 best_val_hr_mae=2.251
+[2026-11-15 01:24:18]   evaluating checkpoint 'best_hr_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/best_hr_model
+[2026-11-15 01:24:18]   [best_hr_model.pt] evaluating 'MiUNet' under 'old' ...
+[2026-11-15 01:25:49]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/best_hr_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-15 01:25:49]   [best_hr_model.pt] evaluating 'MiUNet' under 'prism' ...
+[2026-11-15 01:26:07]   [best_hr_model.pt] evaluating 'MiUNet' under 'toolbox' ...
+[2026-11-15 01:26:16]   evaluating checkpoint 'last_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/last_model
+[2026-11-15 01:26:16]   [last_model.pt] evaluating 'MiUNet' under 'old' ...
+[2026-11-15 01:27:49]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/last_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-15 01:27:49]   [last_model.pt] evaluating 'MiUNet' under 'prism' ...
+[2026-11-15 01:28:06]   [last_model.pt] evaluating 'MiUNet' under 'toolbox' ...
+[2026-11-15 01:28:15]   evaluating checkpoint 'best_loss_model.pt' -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/best_loss_model
+[2026-11-15 01:28:15]   [best_loss_model.pt] evaluating 'MiUNet' under 'old' ...
+[2026-11-15 01:29:48]   WARNING: eval CSV not found at /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MiUNet/best_loss_model/EVAL_PROTOCOL_old/tables/ALL_EVAL_RESULTS.csv
+[2026-11-15 01:29:48]   [best_loss_model.pt] evaluating 'MiUNet' under 'prism' ...
+[2026-11-15 01:30:05]   [best_loss_model.pt] evaluating 'MiUNet' under 'toolbox' ...
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_hr_model.pt | old]: val_model_mae=nan
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_hr_model.pt | prism]: val_model_mae=0.629
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_hr_model.pt | toolbox]: val_model_mae=0.381
+[2026-11-15 01:30:15]   DONE 'MiUNet' [last_model.pt | old]: val_model_mae=nan
+[2026-11-15 01:30:15]   DONE 'MiUNet' [last_model.pt | prism]: val_model_mae=0.627
+[2026-11-15 01:30:15]   DONE 'MiUNet' [last_model.pt | toolbox]: val_model_mae=0.378
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_loss_model.pt | old]: val_model_mae=nan
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_loss_model.pt | prism]: val_model_mae=0.824
+[2026-11-15 01:30:15]   DONE 'MiUNet' [best_loss_model.pt | toolbox]: val_model_mae=0.424
+[2026-11-15 01:30:15] 
+PROTOCOL ABLATION (val model MAE, model x protocol):
+[2026-11-15 01:30:15] 
+protocol                                                          prism  toolbox
+model                                         checkpoint                        
+MiUNet                                        best_hr_model.pt    0.629    0.381
+                                              best_loss_model.pt  0.824    0.424
+                                              last_model.pt       0.627    0.378
+branch1_6wa_projector                         best_hr_model.pt    0.853    0.961
+                                              best_loss_model.pt  1.190    0.826
+                                              last_model.pt       0.850    0.832
+branch2_tcn_rf31_h8                           best_hr_model.pt    0.736    0.494
+                                              best_loss_model.pt  0.834    0.578
+                                              last_model.pt       0.803    0.505
+three_branch_mi_adaptive_branch_weight_b1_6wa best_hr_model.pt    0.708    0.402
+                                              best_loss_model.pt  0.633    0.419
+                                              last_model.pt       0.750    0.347
+[2026-11-15 01:30:15] ==========================================================================
+[2026-11-15 01:30:15] MEGA RUN complete. Summary -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MEGA_SUMMARY.csv
+[2026-11-15 01:30:15] Ablation table   -> /media/data/rPPG/GitHub/Project_rPPG_Result_2/Result_NewDay_seed258/MEGA_PROTOCOL_ABLATION.csv
+[2026-11-15 01:30:15] ==========================================================================
+[2026-11-15 01:30:15] Generating dashboard...
