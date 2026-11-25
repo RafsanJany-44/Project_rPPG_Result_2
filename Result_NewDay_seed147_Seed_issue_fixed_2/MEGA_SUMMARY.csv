@@ -1,0 +1,13 @@
+model,checkpoint,protocol,status,eval_val_model_mae,eval_val_chrom_mae,eval_test_model_mae,eval_test_chrom_mae,params,epochs_run,reach_samples,best_val_hr_mae
+branch2_tcn_rf31_h8,last_model.pt,old,no_csv,,,,,1169,50,29,2.6797606826575704
+branch2_tcn_rf31_h8,last_model.pt,prism,ok,36.51616929130359,2.0522698482409525,,,1169,50,29,2.6797606826575704
+branch2_tcn_rf31_h8,last_model.pt,toolbox,ok,34.37282125455056,0.6642781291645468,,,1169,50,29,2.6797606826575704
+branch2_tcn_rf31_h8,best_loss_model.pt,old,no_csv,,,,,1169,50,29,2.6797606826575704
+branch2_tcn_rf31_h8,best_loss_model.pt,prism,ok,36.02900652270357,2.0522698482409525,,,1169,50,29,2.6797606826575704
+branch2_tcn_rf31_h8,best_loss_model.pt,toolbox,ok,31.601355455867417,0.6642781291645468,,,1169,50,29,2.6797606826575704
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,old,no_csv,,,,,170140,50,96,2.3544792443925853
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,prism,ok,0.6218582481953019,2.0522698482409525,,,170140,50,96,2.3544792443925853
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,toolbox,ok,0.4251967808634105,0.6642781291645468,,,170140,50,96,2.3544792443925853
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,old,no_csv,,,,,170140,50,96,2.3544792443925853
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,prism,ok,0.506554680223024,2.0522698482409525,,,170140,50,96,2.3544792443925853
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,toolbox,ok,0.44249629347772224,0.6642781291645468,,,170140,50,96,2.3544792443925853
