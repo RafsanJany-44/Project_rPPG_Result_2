@@ -1,0 +1,5 @@
+model,checkpoint,prism,toolbox
+branch2_tcn_rf31_h8,best_loss_model.pt,1.9688438750329464,0.5949688832407813
+branch2_tcn_rf31_h8,last_model.pt,1.0073513785825359,0.5082756475261828
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,0.6395332600449537,0.4223092752952512
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,0.7468575294926231,0.48002424150495315
