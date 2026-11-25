@@ -1,0 +1,10 @@
+model,checkpoint,protocol,status,eval_val_model_mae,eval_val_chrom_mae,eval_test_model_mae,eval_test_chrom_mae,params,epochs_run,reach_samples,best_val_hr_mae
+branch2_tcn_rf31_h8,best_hr_model.pt,old,no_csv,,,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,best_hr_model.pt,prism,ok,1.3362982539766144,2.0522698482409525,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,best_hr_model.pt,toolbox,ok,0.4879680877506972,0.6642781291645468,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,last_model.pt,old,no_csv,,,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,last_model.pt,prism,ok,1.5546626708372235,2.0522698482409525,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,last_model.pt,toolbox,ok,0.5747040782891569,0.6642781291645468,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,best_loss_model.pt,old,no_csv,,,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,best_loss_model.pt,prism,ok,0.9242601637793847,2.0522698482409525,,,1169,90,-1,3.3263582179555016
+branch2_tcn_rf31_h8,best_loss_model.pt,toolbox,ok,0.6931606157487175,0.6642781291645468,,,1169,90,-1,3.3263582179555016
