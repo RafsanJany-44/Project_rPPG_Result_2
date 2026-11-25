@@ -1,0 +1,7 @@
+model,checkpoint,prism,toolbox
+branch2_tcn_rf31_h8,best_hr_model.pt,0.8591181071820907,0.6065133596165445
+branch2_tcn_rf31_h8,best_loss_model.pt,0.8482679488509824,0.6297025004316363
+branch2_tcn_rf31_h8,last_model.pt,1.2172051525861636,0.5892351588684136
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_hr_model.pt,0.7055776262467682,0.44254364365666854
+three_branch_mi_adaptive_branch_weight_b1_6wa,best_loss_model.pt,1.851367119143326,0.448275110538748
+three_branch_mi_adaptive_branch_weight_b1_6wa,last_model.pt,0.6798867846388807,0.4713573936174117
